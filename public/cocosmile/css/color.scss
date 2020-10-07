@@ -1,0 +1,345 @@
+$green: #7ab55c;
+
+.light-bg {
+	background: #f9fbfc;
+}
+
+h2 {
+	color: $green;
+}
+
+.triangle--top-right {
+	border-color: transparent transparent $green transparent;
+}
+
+.triangle--bottom-right {
+	border-color: transparent $green transparent  transparent;
+}
+
+.hero-banner {
+	background: -webkit-linear-gradient(102deg, darken($green, 15%) 19%, lighten($green, 10%) 81%);
+   	background: linear-gradient(-12deg, darken($green, 15%) 19%, lighten($green, 10%) 81%);
+}
+
+a {
+	color: $green;
+
+	&:hover,
+	&:focus,
+	&:active {
+		color: $green;
+		text-decoration: none;
+		opacity: .8;
+	}
+}
+
+.pagination {
+	li {
+		a {
+			color: #b7c2ca;
+
+			&:hover,
+			&:focus,
+			&:active {
+				color: $green;
+			}
+		}
+	}
+}
+
+.hero-banner {
+	.btn-default {
+		color: $green;
+
+		&:hover,
+		&:focus,
+		&:active,
+		&:active:hover {
+			color: $green!important;
+			opacity: .8;
+			background: #fff!important;
+		}
+	}
+
+	.btn-primary {
+		color: #fff!important;
+		border-color: #fff!important;
+		margin-left: 10px;
+	}
+}
+
+.newsletter {
+	background: $green!important;
+}
+
+.navbar-brand,
+.logo {
+	.text-logo {
+		.logo-dot {
+			background: $green;
+		}
+	}
+}
+
+.navbar-default.style-1 {
+	li.cart {
+		a {
+			color: $green;
+		}
+	}
+
+	li {
+		a {
+			&:hover,
+			&:focus {
+				color: $green;
+			}
+		}
+	}
+
+	.navbar-toggle {
+		.icon-bar {
+			background: $green;	
+		}
+	}
+
+	.navbar-toggle.collapsed {
+		.icon-bar {
+			background: #666666;	
+		}
+	}
+}
+
+.btn-default,
+input[type="submit"],
+input[type="button"],
+input[type="reset"] {
+	background-color: $green;
+	
+	&:hover,
+	&:focus, 
+	&:active,
+	&:active:hover,
+	&:active:visited {
+		background-color: $green;
+		opacity: .8;
+		color: #fff;
+	}
+}
+
+.btn-default,
+input[type="submit"],
+input[type="button"],
+input[type="reset"] {
+	color: #fff;
+	&:hover,
+	&:focus,
+	&:active,
+	&:active:hover,
+	&:active:visited {
+		color: #fff;
+		box-shadow: none;
+	}
+}
+
+.btn.btn-primary {
+	background: none;
+	color: $green;
+	border-color: $green;
+	&:hover,
+	&:focus,
+	&:active,
+	&:active:hover,
+	&:active:visited {
+		opacity: .8;
+		background-color: $green;
+		border-color:  $green;
+		color: #fff;
+		box-shadow: none;
+	}
+}
+
+.product .product-rating i.rated {
+	color: $green;
+}
+
+.product {
+	.product-sale {
+		background: $green;
+	}
+
+	.product-sold {
+		background: #d1d1d1;
+	}
+}
+
+.accent-bg,
+#instafeed {
+	background: -webkit-linear-gradient(102deg, darken($green, 15%) 19%, lighten($green, 10%) 81%);
+   	background: linear-gradient(-12deg, darken($green, 15%) 19%, lighten($green, 10%) 81%);
+}
+
+.solid-accent-bg {
+	background: $green!important;	
+	h3.moist-heading {
+		span {
+			color: #fff;
+		}
+	}
+
+	label {
+		color: #fff;
+	}
+
+	input {
+		border: none;
+	}
+
+	.btn-default {
+		background: #fff;
+		color: $green;
+		&:hover,
+		&:focus,
+		&:active  {
+			background: #fff;
+			opacity: .8;
+			color: $green;
+		}
+	}
+	.btn-primary {
+		border-color: #fff;
+		color: #fff;
+		&:hover,
+		&:focus,
+		&:active  {
+			border-color: #fff;
+			opacity: .8;
+			color: #fff;
+		}
+	}
+}
+
+.products-carousel .product .product-title  {
+	color: #BCC7CE!important;
+}
+
+.accent-color {
+	color: $green!important;	
+}
+
+.notify.sale {
+	background: $green;
+}
+
+.toolbar .view-mode span.layout-opt:hover {
+	color: $green;
+}
+
+.btn-link:hover,
+.btn-link:focus  {
+	text-decoration: none;
+	color: $green;
+}
+
+
+.news-item-content {
+	a.btn {
+		color: $green!important;
+	}
+}
+
+.footer {
+	li a {
+		&:hover,
+		&:focus {
+			color: $green!important;
+		}
+	}
+}
+
+.widget-handle .cart .label {
+	background: $green;
+}
+
+.parallax-element {
+	.description {
+		background: $green!important;
+	}
+}
+
+.slick-dots li.slick-active button:before,
+.slick-dots li button:hover:before {
+	color: $green!important;
+}
+
+.form-group {
+	label.onfocus {
+		color: $green!important;
+	}
+}
+
+.form-control {
+	&:focus {
+		border-color: $green;
+	}
+}
+
+.notify-addToCart {
+	.info {
+		color: $green;
+	}
+}
+
+.accordion-menu {
+	li {
+		a {
+			&:hover {
+				color: $green;
+			}
+		}
+	}
+}
+
+
+.btn-default.active.focus,
+.btn-default.active:focus,
+.btn-default.active:hover,
+.btn-default:active.focus,
+.btn-default:active:focus,
+.btn-default:active:hover,
+.open>.dropdown-toggle.btn-default.focus,
+.open>.dropdown-toggle.btn-default:focus,
+.open>.dropdown-toggle.btn-default:hover {
+    color:$green!important;
+    background: none!important;
+    border-color: transparent;
+    box-shadow: none;
+}
+
+.step {
+	.step-name {
+		span {
+			background: #fff;
+			color: $green!important;
+		}
+	}
+}
+
+.simply-scroll-btn-left:before,
+.simply-scroll-btn-right:before {
+	color: $green!important;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+    background: $green;
+    opacity: 1;
+}
+
+footer .footer-nav.social li a {
+	color: $green;
+}
+
+.cta {
+	 background: $green;
+}

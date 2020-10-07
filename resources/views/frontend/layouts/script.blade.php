@@ -1,0 +1,11 @@
+    <script type="text/javascript" src="{{ asset('cocosmile/js/jquery-2.1.1.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('cocosmile/js/bootstrap.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('cocosmile/js/fastclick.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('cocosmile/js/enquire.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('cocosmile/js/stellar.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('cocosmile/js/owl-carousel.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('cocosmile/js/instafeed.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('cocosmile/js/simplyscroll.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('cocosmile/js/responsive-nav.min.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('cocosmile/js/ease.js') }}"></script>
+    <script type="text/javascript" src="{{ asset('cocosmile/js/scripts.js') }}"></script>
