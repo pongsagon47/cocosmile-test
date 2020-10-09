@@ -137,7 +137,7 @@
 
                         <!-- RELATED PRODUCT -->
                         <div class="col-md-4 product">
-                            <div class="image">
+                            <div>
                                 <a href="{{ route('cocosmile.product.detail',[$relateProduct->id]) }}"><img src="{{asset('storage/'.$relateProduct->image1)}}" alt=""></a>
                             </div>
                             <div class="description">
