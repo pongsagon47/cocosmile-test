@@ -20,7 +20,7 @@
                                 <p>น้ำมะพร้าวนมสด (มังสวิรัติ) เครื่องดื่มแนะนำจากร้านไคซินไช่ให้สั่ง น้ำมะพร้าวนมสด รสหวานมัน กลิ่นหอม ใครได้ลองเป็นต้องติดใจ</p>
                                 
 
-                                <a href="article.html" class="btn btn-default">View article <i class="fa fa-long-arrow-right"></i></a>
+                                <a href="{{ route('cocosmile.article') }}" class="btn btn-default">View article <i class="fa fa-long-arrow-right"></i></a>
                             </div>
                         </div>
                     </div>

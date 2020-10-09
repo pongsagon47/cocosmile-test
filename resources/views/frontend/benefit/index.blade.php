@@ -16,7 +16,7 @@
                     <div class="col-md-12">
                         <div class="product-title">
                             <h3 class="moist-heading text-center no-padding-top no-after"><span>Coco Smile</span></h3>
-                            <h1 class="text-center page-title">Benefit<br><img src="images/after.jpg" alt=""></h1>
+                            <h1 class="text-center page-title">Benefit<br><img src="{{asset('cocosmile/images/after.jpg')}}" alt=""></h1>
                         </div>
                     </div>
                 </div><!-- END Row -->

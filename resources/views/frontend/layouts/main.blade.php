@@ -12,6 +12,7 @@
 
     <!--Bootstrap-->
     <link type="text/css" rel="stylesheet" href="{{ asset('cocosmile/css/bootstrap.min.css') }}"  media="screen"/>
+    <link type="text/css" rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}"  media="screen"/>
 
     <!--Color Scheme-->
     <link type="text/css" rel="stylesheet" href="{{ asset('cocosmile/css/color.css') }}"  media="screen"/>

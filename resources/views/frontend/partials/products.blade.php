@@ -5,42 +5,16 @@
                     <div class="col-md-12">
                         <div class="products-carousel">
 
+                            @foreach($products as $product)
                             <!-- PRODUCT -->
                             <div class="product">
                                 
-                                    <img src="{{ asset('cocosmile/images/home-product-1l-front.jpg') }}" alt="">
+                                    <img src="{{asset('storage/'.$product->image1)}}" alt="">
                                 
-                                <p class="product-title">1 Liter</p>
+                                <p class="product-title">{{$product->quantity}}</p>
                             </div>
                             <!-- END PRODUCT -->
-
-                            <!-- PRODUCT -->
-                            <div class="product">
-                                
-                                    <img src="{{ asset('cocosmile/images/home-product-500ml-front.jpg') }}" alt="">
-                                
-                                <p class="product-title">500 Milliliter</p>
-                            </div>
-                            <!-- END PRODUCT -->
-
-                            <!-- PRODUCT -->
-                            <div class="product">
-                                
-                                    <img src="{{ asset('cocosmile/images/home-product-1l-x12.jpg') }}" alt="">
-                                
-                                <p class="product-title">1 Liter x 12</p>
-                            </div>
-                            <!-- END PRODUCT -->
-
-                            <!-- PRODUCT -->
-                            <div class="product">
-                                
-                                    <img src="{{ asset('cocosmile/images/home-product-500ml-x12.jpg') }}" alt="">
-                               
-                                <p class="product-title">500 Milliliter x 12</p>
-                            </div>
-                            <!-- END PRODUCT -->
-
+                            @endforeach
                         </div>
                     </div>
                 </div><!-- END Row -->
